@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Nueva entrada</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-input placeholder="Titulo" class="titulos_1"></ion-input>
+    <ion-input placeholder="Subtitulo" class="titulos_2"></ion-input>
+    <div class="container">
+    <ion-textarea class="texto" placeholder="Escribe tu entrada" [autoGrow]="true"
+        value="">
+      </ion-textarea>
+    </div>
+
+    <ion-button class="boton" color="success" [routerLink]="['/comunidad']">
+      Enviar
+      <ion-icon slot="end" name="send"></ion-icon>
+    </ion-button>
+
+</ion-content>

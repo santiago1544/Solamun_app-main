@@ -1,0 +1,31 @@
+ion-content{
+    --background: #EBE6E6;
+  }
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+  }

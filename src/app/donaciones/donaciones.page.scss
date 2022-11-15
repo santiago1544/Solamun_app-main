@@ -1,0 +1,86 @@
+ion-content{
+    --background: azure;
+}
+
+.texto_p{
+    font-size: xx-large;
+    font-style: bold;
+    color: black;
+}
+
+.container_1{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    margin-top: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Donar{
+    width: 240px;
+    height: 70px;
+    background-color: rgb(241, 223, 52);
+    border-radius: 15px;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 14%;
+}
+
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+
+  h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  ion-button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    --background: #E5C417;
+    margin-left: 30%;
+    margin-right: 30%;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  }
+  
+  p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
+  }

@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+  <ion-title>Camara</ion-title>
+    <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Donanos para seguir adelante con esta gran comunidad</h1>
+  <div class="boton1">
+    <ion-fab-button (click)="getPicture()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </div>
+  <h1>Donanos para seguir adelante con esta gran comunidad</h1>
+  <div class="boton2">
+    <ion-fab-button (click)="getPicture()">
+      <ion-icon name="image" ></ion-icon>
+    </ion-fab-button>
+  </div>  
+  
+  <div class="invisible">
+    <input type="file" *ngIf="isDesktop" #filePicker (change)="onFileChoose($event)"/>
+  </div>
+
+  <ion-card *ngIf="photo">
+    <ion-card-content>
+      <img [src]="photo">
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

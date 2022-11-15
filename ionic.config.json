@@ -1,0 +1,7 @@
+{
+  "name": "Solamun_app_v0.1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

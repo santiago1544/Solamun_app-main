@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+  <ion-title>Comunidad</ion-title>
+    <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<cdk-virtual-scroll-viewport>
+<ion-card>
+  <img class="imagen" src="https://extramile.thehartford.com/wp-content/uploads/2021/04/Plants-For-Health-1280x720.jpg" />
+  <ion-card-header>
+    <ion-card-title>¿Es posible curar la septoriosis?</ion-card-title>
+    <ion-card-subtitle>¡Si! Aqui unos Tips</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    Son adultos de tamaño pequeño, de tonalidades que fluctúan de amarillo a verde, o amarillo a rojo, tamb...
+  </ion-card-content>
+</ion-card>
+
+
+<ion-card>
+  <img class="imagen" alt="Silhouette of mountains" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/plant-guide-1663941701.jpg" />
+  <ion-card-header>
+    <ion-card-title>Mis plantas se pudren bajo el sol</ion-card-title>
+    <ion-card-subtitle>Aprende sobre las necesidades de tus plantas</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    El tomate, el pimiento, la berenjena y la papa son cultivos populares para huertos, pertenecien...
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <img class="imagen" alt="Silhouette of mountains" src="https://api.ellecanada.com/app/uploads/2021/09/Plants-for-a-Black-Thumb.jpg" />
+  <ion-card-header>
+    <ion-card-title>Como evitar las orugas: Guia completa</ion-card-title>
+    <ion-card-subtitle>Pueden ser tiernas, pero mortales para tus plantas</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    Existen diversas plagas de las tomateras que afectan a la planta entera, desde el tallo y las hoja..
+  </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <img class="imagen" alt="Silhouette of mountains" src="https://www.kings.co.nz/content/blocks/0131228001631057618.jpg?width=1326&fit=crop&q=60" />
+  <ion-card-header>
+    <ion-card-title>Mis tomates no crecen ¿Que hago?</ion-card-title> 
+    <ion-card-subtitle>Talvez no estas alimentandolos bien</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    El tomate es uno de los cultivos más habituales en cualquier huerto, especialmente en los de tipo urb... 
+  </ion-card-content>
+</ion-card>
+
+</cdk-virtual-scroll-viewport>
+
+<ion-fab slot="fixed" vertical="bottom" horizontal="center" [routerLink]="['/nueva-entrada']">
+  <ion-fab-button class="boton">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+</ion-content>

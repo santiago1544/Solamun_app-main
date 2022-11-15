@@ -1,0 +1,77 @@
+ion-content{
+    --background: #34723f;
+}
+
+.texto_donar{
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    align-items: center;
+    margin-top: 180%;
+    margin-bottom: 0 auto;
+}
+
+.container_1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.container_2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: 70%;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.button_camara{
+    position: relative;
+    margin-top: 0 auto;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.button_comunidad{
+    position: relative;
+    margin-top: 0 auto;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.imagen{
+    width: 90%;
+    height: 90%;
+}
+
+.texto_camara{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-top: 60%;
+}
+
+.texto_comunidad{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-top: 20%;
+}

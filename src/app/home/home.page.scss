@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,700;1,200&display=swap');
+
+.botones{
+  position: fixed;
+  left: 19%;
+  bottom: 23px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+ion-button {
+  font-family: ExtraLight 200;
+  --background-color: #9c979781;
+  border-radius: 10px;
+  --color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+  height: 50px;
+  font-size: 100%;
+  margin: 5%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.70));
+}
+
+#container {
+  position: fixed;
+  bottom: 25%;
+  margin: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#container strong {
+  font-family: Nunito Sans;
+  font-size: 35px;
+  line-height: 60px;
+  margin-bottom: 350px;
+} 
+
+#container p {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  line-height: 22px;
+  justify-content: left;
+  color: #ffffff;
+  position: fixed;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+  --background: #34723f;
+}
+
+.container{
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
